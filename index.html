@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harish S - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Harish S 👋</h1>
+    <p>Digital Marketer | Business Analyst | Product Manager</p>
+    <nav>
+      <a href="#">About</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Turning Strategy into Results</h2>
+      <p>I help businesses grow through data-driven marketing, product thinking, and strategic analysis.</p>
+      <a href="https://www.linkedin.com/in/harish-s-19ab9234a" target="_blank">Connect on LinkedIn</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Harish S</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - Harish S</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>About Me</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Hello, I'm Harish S</h2>
+      <p>
+        I'm a passionate digital marketer, business analyst, and product manager.
+        I specialize in helping brands grow through smart strategy, data, and execution.
+      </p>
+      <p>
+        Tools I use: Google Analytics, Meta Ads, Excel, Notion, Jira, and more.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Harish S</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects - Harish S</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Projects</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Featured Projects</h2>
+      <ul>
+        <li><strong>Campaign ROI Boost</strong> – Improved Facebook ad ROI by 45%</li>
+        <li><strong>Product Launch</strong> – Launched a SaaS MVP with 2000+ users in 3 months</li>
+        <li><strong>Market Research</strong> – Delivered customer insights for a B2C product pivot</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Harish S</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Harish S</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Contact</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Let's Connect</h2>
+      <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/harish-s-19ab9234a" target="_blank">Harish S</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Harish S</p>
+  </footer>
+</body>
+</html>
+<img src="profile.jpg" alt="Harish S" class="profile-pic" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+<nav>
+    <a href="index.html"><i class="fas fa-home"></i> Home</a>
+    <a href="about.html"><i class="fas fa-user"></i> About</a>
+    <a href="projects.html"><i class="fas fa-briefcase"></i> Projects</a>
+    <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+  </nav>
+  <p>
+    Download my resume: 
+    <a href="HarishS_Resume.pdf" download class="btn">Download PDF</a>
+  </p>
+  <head>
+    ...
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+  
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+  </head>
+  <div id="cookieConsent" style="display:none; position:fixed; bottom:0; background:#222; color:#fff; width:100%; padding:15px; text-align:center; z-index:9999;">
+    This website uses cookies to improve your experience.  
+    <button id="acceptCookies" style="margin-left:10px; padding:5px 15px; background:#4CAF50; color:#fff; border:none; cursor:pointer;">Accept</button>
+  </div>
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      if (!localStorage.getItem("cookiesAccepted")) {
+        document.getElementById("cookieConsent").style.display = "block";
+      }
+      document.getElementById("acceptCookies").addEventListener("click", function() {
+        localStorage.setItem("cookiesAccepted", "true");
+        document.getElementById("cookieConsent").style.display = "none";
+      });
+    });
+  </script>
+  <head>
+    <title>Harish S | Digital Marketer & Business Analyst Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Harish S Portfolio - Digital Marketing, Business Analysis, Product Management expert" />
+    <meta name="keywords" content="Digital Marketing, Business Analyst, Product Manager, Portfolio, Harish S" />
+    <meta name="author" content="Harish S" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <h1>Welcome to Harish S Portfolio</h1>
+<img src="profile.jpg" alt="Harish S profile picture" />
+<meta name="google-site-verification" content="xxxxxxxxxxxxxxxxxxxx" />
+<head>
+    ...
+    <meta name="google-site-verification" content="xxxxxxxxxxxxxxxxxxxx" />
+  </head>
+  <img src="profile.jpg" alt="Harish S Profile Picture" style="width:200px; border-radius: 50%;">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <i class="fas fa-envelope"></i> Email  
+  <i class="fab fa-linkedin"></i> LinkedIn  
+  <i class="fas fa-phone"></i> Phone  
+  <p><i class="fas fa-envelope"></i> harish@example.com</p>
+  <a href="resume-harish.pdf" download>
+    <button style="padding:10px 20px; background:#4CAF50; color:white; border:none; cursor:pointer;">
+      Download My Resume
+    </button>
+  </a>
+  
